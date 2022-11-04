@@ -1,1 +1,101 @@
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.first{
+  height: 650px;
+  background-image: url("../images/bg-intro-desktop.png");
+}
+.first h1{
+    padding-top: 200px;
+    color: white;
+}
+.first p{
+    color: #eff3fa;
+}
+.sec{
+   border: hsl(248, 32%, 49%) solid;
+   margin-top:80px ;
+   border-radius:10px ;
+   text-align: center;
+   background-color: hsl(248, 32%, 49%);
+   box-shadow: 0 6px  rgba(0, 0, 0 , 0.2) ;
+   margin-bottom:20px ;
+}
+.sec p{
+    color: white;
+    padding-top: 11px;
+}
+form{
+    border-radius: 7px;
+    background-color: white;
+    margin-bottom:50px ;
+    box-shadow: 0 6px  rgba(0, 0, 0 , 0.2) ;
+}
+.btn{
+    margin-bottom: 16px;
+    margin-top: 30px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;  
+    box-shadow: 0 4px  rgba(6, 142, 90, 0.8) ;
+    text-align: center;
+    width: 100%;
+}
+.btn:hover{
+    color: white;  
+    opacity: 0.7;
+}
+.th p{
+    color: #6C7581;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 30px;
+}
+p span{
+    color: rgb(226, 45, 45);
+}
+.invalid-feedback {
+   margin-top: -18px;
+   margin-bottom: 20px;
+   position: relative;
+   padding: 6px 0px;
+}
+.invalid-feedback p{
+    position: absolute;
+    right: 0;
+    color: #dc3545;
+}
 
+.was-validated .form-control:invalid{
+    background-image: url( "../images/icon-error.svg" );
+}
+input{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.red::placeholder{
+    color:#dc3545;
+  }
+  .tra::placeholder{
+      color:transparent;
+  }
+  .tran::placeholder{
+      color: transparent;
+  }
+  .trans::placeholder{
+      color: transparent;
+  }
+.ra{
+    padding-top: 20px;
+}
+  @media screen and (max-width: 450px){
+      .first{
+          height:1100px;
+      }
+      .ss p , .ss h1{
+          text-align: center;
+          margin: auto;
+      }
+  }
